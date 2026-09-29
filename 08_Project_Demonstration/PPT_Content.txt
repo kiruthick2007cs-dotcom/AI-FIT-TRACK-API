@@ -1,0 +1,101 @@
+FITTRACK — PPT CONTENT (12 SLIDES)
+
+SLIDE 1 — TITLE
+FITTRACK
+B.Sc Computer Science Project
+RESTful Fitness Tracking API with Google Gemini Integration
+
+SLIDE 2 — PROJECT OVERVIEW
+• Node.js + Express.js backend
+• MongoDB using Mongoose
+• JWT authentication and bcryptjs
+• Google Gemini SDK integration
+• Postman API testing
+
+SLIDE 3 — PROBLEM
+• Fitness/workout records need structured API access
+• Users need authenticated access to their records
+• Search is required for stored workouts
+• AI assistance is provided through documented endpoints
+
+SLIDE 4 — OBJECTIVES
+• User registration and login
+• Secure authenticated profile access
+• Workout CRUD operations
+• Workout search by documented query behavior
+• AI workout recommendation and fitness insights
+
+SLIDE 5 — TECHNOLOGY STACK
+• Node.js
+• Express.js
+• MongoDB Atlas / Mongoose
+• JWT
+• bcryptjs
+• Morgan
+• Google Gemini SDK
+• Postman
+
+SLIDE 6 — ARCHITECTURE
+Client/Postman
+      ↓
+Express Routes + JWT Middleware
+      ↓
+Controllers
+      ↓
+Mongoose Models → MongoDB
+      ↓
+Gemini Service → Google Gemini for AI endpoints
+
+SLIDE 7 — MAIN MODULES
+• Authentication
+• Workout Management
+• Workout Search
+• AI Assistance
+
+SLIDE 8 — API DEMONSTRATION
+• Register
+• Login
+• Profile
+• Add/List/Get/Update/Delete Workout
+• Search Workout
+• AI Workout Recommendation
+• AI Fitness Insights
+
+SLIDE 9 — POSTMAN TESTING
+• Import FitTrack.postman_collection.json
+• base_url = http://localhost:5000
+• jwt_token is stored after successful auth tests
+• workout_id is stored after Add Workout
+• Selected requests include automated assertions
+
+SLIDE 10 — RESULTS AND LIMITATIONS
+Results:
+• Report actual responses observed during demonstration
+Limitations of this submitted package:
+• src JavaScript files were not supplied
+• No live response screenshots were supplied
+• Exact internal schema fields were not supplied
+
+SLIDE 11 — FUTURE SCOPE
+• Add only future features that are actually proposed by the student
+• Clearly distinguish future work from current documented functionality
+• Extend testing evidence after real execution
+
+SLIDE 12 — CONCLUSION
+• FITTRACK provides a modular REST API for fitness tracking
+• Authentication protects user-specific operations
+• Workout CRUD and search are documented
+• Gemini integration provides recommendation and insight endpoints
+• Postman supports API demonstration and testing
+
+VIVA QUICK QUESTIONS
+1. What is FITTRACK?
+2. Why Express.js?
+3. Why MongoDB and Mongoose?
+4. What is JWT used for?
+5. Why bcryptjs?
+6. What are the workout CRUD APIs?
+7. How does workout search work?
+8. What does the Gemini integration provide?
+9. How is the API tested in Postman?
+10. Why should .env not be committed?
