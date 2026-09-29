@@ -1,0 +1,33 @@
+FITTRACK ACTUAL BACKEND SOURCE-CODE NOTE
+
+The supplied upload for this package contained project metadata and documentation:
+- README.md
+- package.json
+- package-lock.json
+- .env.example
+- .gitignore
+- FitTrack.postman_collection.json
+
+The actual JavaScript source files under src/ were NOT included in the uploaded files available for this package.
+
+The supplied README documents the intended MVC structure and names files such as:
+src/config/db.js
+src/controllers/authController.js
+src/controllers/workoutController.js
+src/controllers/aiController.js
+src/middleware/auth.js
+src/middleware/errorHandler.js
+src/models/User.js
+src/models/Workout.js
+src/routes/authRoutes.js
+src/routes/workoutRoutes.js
+src/routes/aiRoutes.js
+src/routes/index.js
+src/services/geminiService.js
+src/app.js
+and the package declares src/server.js as its main entry point.
+
+These source files are intentionally NOT fabricated here. Replace/add the actual source files when available.
+
+SECURITY:
+The original .env was intentionally excluded. Never commit real MongoDB passwords, JWT secrets, Gemini API keys, or other private credentials.

@@ -1,0 +1,12 @@
+Supplied files used in this phase:
+- package.json
+- package-lock.json
+- .env.example
+- .gitignore
+- README.md
+- API_Testing/FitTrack.postman_collection.json
+
+Not supplied:
+- src/**/*.js source implementation files
+
+The README documents the expected MVC source structure, but missing source files are not recreated.

@@ -1,0 +1,1 @@
+No screenshots were supplied with the project upload. Add actual Postman/API screenshots here after test execution; do not add fabricated evidence.
